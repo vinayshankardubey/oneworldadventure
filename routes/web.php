@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\AdminController;
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
@@ -48,5 +50,10 @@ Route::get('/turist-2', [FrontController::class, 'turist_2']);
 
  //@@@@@@@@@@@@@@@@@@@@@@@@@@ Admin @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
  Route::get('admin',[AuthController::class,'login'])->name('admin.login');
- //c1Q|///F1#
+ Route::post('admin-login',[AuthController::class,'admin_login'])->name('admin-login');
+
+
+ Route::get('/dashboard', [AdminController::class, 'dashboard'])->middleware('admin');
+ 
+ //c1Q|///F1# 
 

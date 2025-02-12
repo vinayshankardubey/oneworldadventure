@@ -10,7 +10,7 @@
 	<meta name="description" content="Travl : Hotel Admin Dashboard Bootstrap 5 Template" />
 	<meta property="og:title" content="Travl : Hotel Admin Dashboard Bootstrap 5 Template" />
 	<meta property="og:description" content="Travl : Hotel Admin Dashboard Bootstrap 5 Template" />
-	<meta property="og:image" content="social-image.png" />
+	<meta property="og:image" content="{{asset('admin_assets/social-image.png')}}" /> 
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- PAGE TITLE HERE -->
@@ -120,7 +120,7 @@
 									<li class="dlab-chat-user">
 										<div class="d-flex bd-highlight">
 											<div class="img_cont">
-												<img src="{{asset('admin_asset/images/avatar/2.jpg')}}" class="rounded-circle user_img" alt=""/>
+												<img src="{{asset('admin_assets/images/avatar/2.jpg')}}" class="rounded-circle user_img" alt=""/>
 												<span class="online_icon offline"></span>
 											</div>
 											<div class="user_info">

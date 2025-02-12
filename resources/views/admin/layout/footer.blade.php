@@ -28,29 +28,29 @@
 		Scripts
 	***********************************-->
 	<!-- Required vendors -->
-	<script src="vendor/global/global.min.js"></script>
+	<script src="{{asset('admin_assets/vendor/global/global.min.js')}}"></script>
 
-	<script src="vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="{{asset('admin_assets/vendor/jquery-nice-select/js/jquery.nice-select.min.js')}}"></script>
 	
 	<!-- Apex Chart -->
 	
-	<script src="vendor/apexchart/apexchart.js"></script>
+	<script src="{{asset('admin_assets/vendor/apexchart/apexchart.js')}}"></script>
 	
 	
 	<!-- Chart piety plugin files -->
 	
 	
 	<!-- Dashboard 1 -->
-	<script src="js/dashboard/dashboard-1.js"></script>
+	<script src="{{asset('admin_assets/js/dashboard/dashboard-1.js')}}"></script>
 	
-	<script src="vendor/owl-carousel/owl.carousel.js"></script>
-	<script src="vendor/bootstrap-datetimepicker/js/moment.js"></script>
-	<script src="vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="{{asset('admin_assets/vendor/owl-carousel/owl.carousel.js')}}"></script>
+	<script src="{{asset('admin_assets/vendor/bootstrap-datetimepicker/js/moment.js')}}"></script>
+	<script src="{{asset('admin_assets/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js')}}"></script>
 	
-	<script src="js/custom.min.js"></script>
-	<script src="js/dlabnav-init.js"></script>
-	<script src="js/demo.js"></script>
-	<script src="js/styleSwitcher.js"></script>
+	<script src="{{asset('admin_assets/js/custom.min.js')}}"></script>
+	<script src="{{asset('admin_assets/js/dlabnav-init.js')}}"></script>
+	<script src="{{asset('admin_assets/js/demo.js')}}"></script>
+	<script src="{{asset('admin_assets/js/styleSwitcher.js')}}"></script>
 	<script>
 		function TravlCarousel()
 			{

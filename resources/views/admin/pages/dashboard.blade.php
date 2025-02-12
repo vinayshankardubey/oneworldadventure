@@ -1,5 +1,5 @@
 @extends('admin.layout.layout')
-@section('contant')
+@section('content')
 
 <!--**********************************
 			Content body start
@@ -112,7 +112,7 @@
 												</div>
 												<div class="rooms mt-3 d-flex align-items-center justify-content-between flex-wrap">
 													<div class="d-flex align-items-center mb-3">
-														<img src="{{asset('admin_asset/images/room/room2.jpg')}}" alt="">
+														<img src="{{asset('admin_assets/images/room/room2.jpg')}}" alt="">
 														<div class="ms-4 bed-text">
 															<h4>Deluxe Room B-1324</h4>
 															<div class="users d-flex align-items-center">
@@ -128,11 +128,11 @@
 												</div>
 												<div class="rooms mt-3 d-flex align-items-center justify-content-between flex-wrap">
 													<div class="d-flex align-items-center mb-3">
-														<img src="{{asset('admin_asset/images/room/room3.jpg')}}" alt="">
+														<img src="{{asset('admin_assets/images/room/room3.jpg')}}" alt="">
 														<div class="ms-4 bed-text">
 															<h4>King Big C-2445</h4>
 															<div class="users d-flex align-items-center">
-																<img src="{{asset('admin_asset/images/users/user3.jpg')}}" alt="">
+																<img src="{{asset('admin_assets/images/users/user3.jpg')}}" alt="">
 																<div >
 																	<span class="fs-16 font-w500 me-3">JGeovanny</span>
 																	<span>12min ago</span>
